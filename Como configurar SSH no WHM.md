@@ -7,7 +7,7 @@
 2. Depois configure as chaves de action no repositório. Veja abaixo as chaves:
 ``` 
 SSH_HOST: ip do servidor onde vai ficar hospedado
-SSH_KEY: chave pública ssh criada na etapa 1.
+SSH_KEY: chave privada ssh criada na etapa 1.
 SSH_PORT: 1157 (porta do ssh no whm. para descobrir qual é o numero da porta, abra o terminal no whm e digite: nano /etc/ssh/sshd_config)
 SSH_USER: username da conta do servidor onde vai ficar hospedado
  ```
